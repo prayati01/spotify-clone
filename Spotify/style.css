@@ -1,0 +1,90 @@
+body{
+    font-family: arial;
+    color:grey;
+    background-color:#040404;
+    margin: unset;
+    padding-bottom: 2%;
+}
+.banner{
+    background-image: url(images/download.jpeg);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 18em;
+}
+.left-img{
+    margin-left:1em;
+    margin-top:1em;
+    width: 12em;
+    display: inline-block;
+    margin-right: 1em;
+}
+.left-banner{
+    float: left;
+    margin-top:1em;
+    width:12em;
+}
+
+.heading{
+    display:inline-block;
+}
+.main-section{
+    margin:auto;
+    width:80%;
+}
+.table{
+    text-align:left;
+}
+th{
+    padding:2em;
+    padding-left:1.2em;
+    font-size: large;
+}
+.song-number{
+    width:  20px;
+    border-bottom:2px solid grey;
+}
+.song-title{
+    width:  550px;
+    border-bottom:2px solid grey;
+}
+.song-artist{
+    width:  250px;
+    border-bottom:2px solid grey;
+}
+.song-duration{
+    width:  100px;
+    border-bottom:2px solid grey;
+}
+td{
+    padding:1.2em;
+}
+tr:hover{
+    color:white}
+.play-button{
+    margin-top:1em;
+    width:3.5em;
+
+}
+.controls img {
+    margin-top: 1em;
+    width: 3.5em;
+    height: 3.5em; /* Set the height to match the width for a circular shape */
+    /* Other button styles */
+
+    /* Initial state */
+    background-color: #161616;
+    color: white;
+    border: 2px solid #131212;
+    border-radius: 50%; /* Make it circular */
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.play-button:hover {
+    /* Hover state */
+    border-color: #f1f1f1;
+}
+.highlight{
+    color: antiquewhite;
+}
